@@ -1,0 +1,338 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+/*common end*/
+
+/*header start*/
+header{
+	padding: 25px 0;
+
+	/*border: 1px solid pink;*/
+
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+
+}
+.logo{
+	margin-top: 12px;
+	width: 10%;
+	float: left;
+	/*border: 1px solid black;*/
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 60%;
+	float: right;
+	/*border: 1px solid black;*/
+
+
+}
+.menu ul{
+	float: right;
+
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+
+
+
+}
+.menu ul li a{
+	margin: 0 36px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #626262;
+	border-bottom: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* header end*/
+/*banner start*/
+.banner{
+	margin: 0 auto;
+}
+
+}
+
+
+.b_img{
+
+
+
+}
+.b_img img{
+	width: 100%;
+
+
+}
+/* banner end*/
+/*perfect start*/
+.perfect{
+	padding: 100px 0 60px;
+
+}
+.container2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+    /*border: 1px solid red*/
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-seri;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+.c_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 26px;
+}
+.mb_45{
+	margin-bottom: 40px;
+}
+
+
+
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 20px 0 60px;
+}
+.b_content{
+
+	overflow: hidden;
+}
+.b_single{
+	margin-top: 50px;
+	float: left;
+	width: 47%;
+	/*border: 1px solid black;*/
+
+}
+.b_single:nth-child(even){
+	margin-left: 6%;
+
+}
+
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+/* blog end*/
+/*news start*/
+.news{
+	background-color:#f0f0f0 ;
+	padding: 70px 0;
+}
+.singup{
+	text-align: center;
+}
+.s_h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #333333;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	
+	/*border: 5px solid red;*/
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	width: 350px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+    right: 0px;
+}
+.s_form button:focus{
+	outline: 0;
+
+}
+.s_form button img{}
+
+/*news end*/
+/*blog2 start*/
+.blog2{
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+.top{
+	overflow: hidden;
+
+}
+/*blog2 end*/
+/*load start*/
+.load{
+	
+}
+.container3{
+	margin: 0 auto;
+	width: 80%;
+}
+.c_load{
+	
+
+	text-align: center;
+	padding: 50px 40px;
+
+}
+.c_load button{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 20px;
+	padding: 18PX 35PX;
+	background-color: transparent;
+	border: none;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid #aba6a6;
+	border-right: 1px solid #aba6a6;
+	
+
+}
+.c_load button:focus{
+	outline: 0;
+}
+.c_more{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 20px;
+
+}
+/*load end*/
+/*footer start*/
+footer{
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 60px;
+    background-color: #f0f0f0;
+    
+
+}
+/*left start*/
+.left{
+	
+	margin-top: 5px;
+	float: left;
+	width: 25%;
+	/*border: 1px solid red;*/
+}
+.left ul{
+
+}
+.left ul li{
+	float: left;
+	list-style: none;
+	
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+}
+.left ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	padding: 0 10px;
+	text-decoration: none;
+	
+
+}
+/*left end*/
+/*rght start*/
+.right{
+	float: right;
+	width: 30%;
+	/*border: 1px solid red;*/
+}
+
+.f_icon{
+
+
+}
+.f_icon ul{
+	float: right;
+
+
+
+}
+.f_icon ul li{
+	float: left;
+
+	list-style: none;
+	
+
+}
+.f_icon  ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 20px;
+	
+}
+.f_icon ul li:last-child a{
+	margin-right: 0;
+}
+
+}	
+/*right end*/
+
+
+
+/*footer end*/
